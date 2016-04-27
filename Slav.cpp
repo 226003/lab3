@@ -21,6 +21,7 @@ Slav::Slav()
 	static int amountOfNames = (init(), names.size());
 	_name = names[rand() % amountOfNames];
 	_id = _counter++;
+
 }
 
 string Slav::description()
